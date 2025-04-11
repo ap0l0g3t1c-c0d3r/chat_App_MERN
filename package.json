@@ -1,0 +1,12 @@
+{
+  "name": "as-a-programmer",
+  "version": "1.0.0",
+  "main": "/src/index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend/chatApp && npm run build --prefix frontend/chatApp",
+    "start": "npm run start --prefix backend" 
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
